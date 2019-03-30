@@ -41,7 +41,7 @@ hr {
     height: 100vh;
     
     background: 
-    url("../images/intro.jpeg") center
+    url("../images/hell.jpg") center
     no-repeat;
     background-size: cover;
 }
@@ -54,7 +54,7 @@ hr {
 }
 
 .intro__title {
-    color: #fff;
+    color: red;
     font-size: 150px;
     font-weight: 700;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ hr {
     
     font-family: 'Kaushan Script', cursive;
     font-size: 72px;
-    color: #fff;
+    color: #333;
         
 }
 
@@ -242,6 +242,15 @@ hr {
 .section {
     
     padding: 80px 0;
+}
+
+.section-devices {
+    padding-bottom: 0;
+ background: 
+     url("../images/intro.jpeg") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .section__header {
@@ -428,6 +437,27 @@ hr {
     
 }
 
+/* Devices */
+
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__iteam {
+    display: block;
+    
+    
+}
+
+.devices__iteam--diablo {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+}
 
 
 
